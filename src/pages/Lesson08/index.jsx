@@ -6,5 +6,17 @@ import instruction from "./instruction.md?raw";
 const convertData = (input) => {
   
 };
+const Lesson = () => {
+  return (
+    <LessonPage
+      answerUrl="/answer08"
+      convertData={convertData}
+      dataUrl="data/qiita-articles.json"
+      instruction={instruction}
+      title="Lesson 08"
+      Chart={Chart}
+    />
+  );
+};
 
 export default Lesson;
